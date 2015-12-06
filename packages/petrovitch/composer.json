@@ -1,0 +1,21 @@
+{
+    "name": "root/petrovitch",
+    "description": "My first package.",
+    "type": "liberty",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "petrovitch",
+            "email": "kennthompson@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Username\\HelloWor": "/src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "~5"
+    }
+}
